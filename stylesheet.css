@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Special+Elite&family=Zilla+Slab+Highlight&display=swap');
+
+body {
+  background-color: #351C15;
+  margin: 0;
+  padding: 0;
+
+}
+
+.clock {
+  font-size: 3rem;
+  font-family: Gotham Rounded, sans-serif;
+  color: #FFB500;
+  font-weight: 100;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  font-size: 1.234rem;
+  color: red;
+
+  
+}
+
+#nameGreeting {
+  font-weight: 100;
+  font-size: 5.5rem;
+
+}
+
+#nameGreetingText {
+  padding-top: 30px;
+  font-weight: 222;
+  color: #FFB500;
+  font-size: 2rem;
+}
+
+
+
+#clockDisplay {
+  border: 1px solid #FFB500;
+  padding: 100px;
+  
+}
+
+p {
+  color: #FFB500;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: 'Alfa Slab One', cursive;
+  
+  
+}
+
+.upsAcc {
+  font-size: 2.5rem;
+  font-family: 'Special Elite', cursive;
+  margin-left: 10px;
+}
+
+
+
+@media (max-width: 480px) {
+  #clockDisplay {
+    width: 350px;
+    height: 380px;
+    padding-top: 23%;
+    
+  }
+}
+
+@media (max-width: 580px) {
+  #clockDisplay {
+    width: 350px;
+    height: 380px;
+    padding-top: 23%;
+  }
+}
+
+
+@media (max-width: 769px) {
+  #nameGreetingText {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 769px) {
+  #dateDisplay {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #dateDisplay {
+    font-size: 1.55rem;
+  }
+}
+
+
+@media (max-width: 769px) {
+  #timeDisplay {
+    font-size: 3rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  #timeDisplay {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 769px) {
+  .clock {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .clock {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .clock {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .clock {
+    font-size: 2rem;
+  }
+}
+
+
+.buttons {
+  display: grid;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid#999;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+}
+
+/* Calculator */
+
+.calcuContainer {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  box-shadow: 0px 0px 43px 17px rgba(255, 169, 6, 0.8);
+  margin-top: 120px;
+}
+
+.buttons > div {
+  border-top: 1px solid #999;
+  border-right: 1px solid#999;
+}
+
+.button {
+  border: 0.5px solid #999;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#equal {
+  background-color: #FFB500;
+  color: white;
+}
+
+.button:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+#display {
+  height: 100px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  border: 0.5px solid #999;
+  
+}
+
+
+#backgroundDiv {
+  display: flex;
+  justify-content: center;
+}
+
+
+#btn {
+  display: flex;
+  margin-top: 250px;
+  margin-bottom: 25px;
+ 
+}
+
